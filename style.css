@@ -1,1 +1,83 @@
-.MartinTheLustyKhajiit
+
+body {
+
+background-color: darkslateblue;
+
+}
+
+#nav {
+
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: blueviolet;
+
+
+}
+
+#nav .loginbtn {
+
+    margin-inline-start: 16px;
+    text-decoration: none;
+    color: antiquewhite;
+
+
+}
+
+#hero {
+
+    display: flex;
+    margin-block-start: 72px;
+    margin-inline: 32px;
+
+}
+
+
+#heroimg {
+
+    width: 40%;
+    height: 1000px;
+    margin-inline-end: 64px;
+
+}
+
+#herotext {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    color: antiquewhite;
+    height: 100%;
+
+}
+
+#herotext h1 {
+
+    font-weight: bolder;
+    font-size: 50px;
+
+}
+
+#herotext p {
+
+font-size: large;
+
+}
+
+.herocontent {
+
+display: flex;
+flex-direction: column;
+}
+
+#hero-img2 {
+
+width: 60%;
+
+}
+
+.herocontent:first-child {
+    margin-block-end: 130px;
+}
