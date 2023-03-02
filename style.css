@@ -75,6 +75,7 @@ flex-direction: column;
 #hero-img2 {
 
 width: 60%;
+align-self: center;
 
 }
 
