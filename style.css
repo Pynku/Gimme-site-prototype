@@ -1,7 +1,8 @@
 
 body {
 
-background-color: darkslateblue;
+    background-color: darkslateblue;
+    font-family: 'Golos Text', sans-serif;
 
 }
 
@@ -28,7 +29,7 @@ background-color: darkslateblue;
 #hero {
 
     display: flex;
-    margin-block-start: 72px;
+    margin-block-start: 66px;
     margin-inline: 32px;
 
 }
@@ -62,23 +63,54 @@ background-color: darkslateblue;
 
 #herotext p {
 
-font-size: large;
+    font-size: large;
 
 }
 
 .herocontent {
 
-display: flex;
-flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #hero-img2 {
 
-width: 60%;
-align-self: center;
+    width: 60%;
+    align-self: center;
 
 }
 
 .herocontent:first-child {
     margin-block-end: 130px;
+}
+
+#testimonials {
+
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    background-color: mediumslateblue;
+    width: 250px;
+    height: 370px;
+    padding: 20px;
+    color: antiquewhite;
+
+
+}
+
+
+.testimonial-circle {
+
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+
 }
