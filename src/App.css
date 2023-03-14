@@ -122,3 +122,21 @@ width: 100px;
   align-self: center;
 
 }
+
+.footer {
+
+  background-color: purple;
+  text-align: center;
+  list-style: none;
+  color: antiquewhite;
+
+
+}
+
+.list {
+
+  display: flex;
+  justify-content:space-around;
+  list-style-type:none;
+  text-decoration: none;
+}
