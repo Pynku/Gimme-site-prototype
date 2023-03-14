@@ -1,38 +1,124 @@
-.App {
-  text-align: center;
+
+body {
+
+  background-color: darkslateblue;
+  font-family: 'Golos Text', sans-serif;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#nav {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  padding-block: 0;
+  background-color: blueviolet;
+  align-items: center;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+
+width: 100px;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#nav .loginbtn {
+
+  margin-inline-start: 16px;
+  text-decoration: none;
+  color: antiquewhite;
+
+
+}
+
+#hero {
+
+  display: flex;
+  margin-block-start: 66px;
+  margin-inline: 32px;
+
+}
+
+
+#heroimg {
+
+  width: 40%;
+  height: 1000px;
+  margin-inline-end: 64px;
+
+}
+
+#herotext {
+
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
+  text-align: center;
+  color: antiquewhite;
+  height: 100%;
+
 }
 
-.App-link {
-  color: #61dafb;
+#herotext h1 {
+
+  font-weight: bolder;
+  font-size: 50px;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#herotext p {
+
+  font-size: large;
+
+}
+
+.herocontent {
+
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-img2 {
+
+  width: 60%;
+  align-self: center;
+
+}
+
+.herocontent:first-child {
+  margin-block-end: 130px;
+}
+
+#testimonials {
+
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+
+}
+
+.card {
+
+  display: flex;
+  flex-direction: column;
+  background-color: mediumslateblue;
+  width: 250px;
+  height: 370px;
+  padding: 20px;
+  color: antiquewhite;
+
+
+}
+
+
+.testimonial-circle {
+
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  align-self: center;
+
 }
